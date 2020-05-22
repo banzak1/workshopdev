@@ -2,8 +2,33 @@ body {
 background: #e5e5e5;
 color: #25282b;
 
+font-family: 'Montserrat', sans-serif;
+
 margin: 0;
 }
+
+.hide {
+display: none;
+}
+
+a{
+color: #ff5f84;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover{
+    color: #ff5f84;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p, .description {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.1px;
+}
+
 
 #container {
 width: 90%;
@@ -40,7 +65,10 @@ button {
 background: none;    
 color: #ff5f84;
 border: none;
+font-size: 14px;
 font-weight: bold;
+line-height: 18px;
+letter-spacing: 0.2px;
 
 cursor: pointer;
 outline: none;
@@ -49,7 +77,7 @@ outline: none;
 }
 
 button:hover{
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 button.fat {
@@ -63,26 +91,50 @@ box-shadow: 8px 8px 16px #ff5f8422;
 }
 
 button.fat:hover{
-    text-decoration: none;
+text-decoration: none;
 }
 
 footer {
 text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.2px;
+
+color: #777;
 
 } 
 
-
-#footer a {
-color: #25282b;
-text-decoration: none;
+footer a{
+    opacity: 0.7;
 }
 
-
-footer a:hover{
-    color: #ff5f84;
-    font-weight: bold;
+.idea {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1,1,1,0.1);
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 32px;
 }
 
-.hide {
-display: none;
+.idea img {
+    width: 60px;
+    height: 60px;
+
+    margin-right: 32px;
+}
+
+.idea h3 {
+    margin: 0;
+}
+
+.idea p {
+    margin: 8px 0;
+    color: #777;
+}
+
+.idea .description {
+    margin: 16px 0;
+
 }
